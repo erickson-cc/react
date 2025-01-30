@@ -7,6 +7,5 @@ export const loadPosts = async () => {
 	const postsAndPhotos = postsJson.map((post,index) =>{
 		return {...post, cover: photosJson[index].url}
 	});
-//	this.setState({posts:postsAndPhotos});
 	return postsAndPhotos;
 }
