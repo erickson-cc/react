@@ -5,9 +5,6 @@ export const PostCard = ({title, cover, body, id}) => (
 			<h1>
 				{title}
 			</h1>
-			<h2>
-				{title}
-			</h2>
 			<p>
 				{body}
 			</p>

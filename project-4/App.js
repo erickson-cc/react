@@ -1,4 +1,6 @@
-import './App.css';
+// import './App.css';
+import "./templates/home/styles.css"
+
 
 import {Component} from 'react';
 // import {PostCard} from "./comp/PostCard";
